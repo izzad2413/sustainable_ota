@@ -35,7 +35,7 @@ using Online Travel Agent (OTA) platform data.
 
 
 ## Objective
-- To develop and evaluate predictive models using statistical learning techniques on data from an OTA platform to accurately classify tourist accommodations as sustainable, as indicated by the presence of a sustainability label
+- To develop and evaluate predictive models using machine learning techniques on data from an OTA platform to accurately classify tourist accommodations as sustainable, as indicated by the presence of a sustainability label
 
 
 ## Tools and Technologies
