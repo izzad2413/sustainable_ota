@@ -19,19 +19,12 @@
 
 
 ## Introduction
-Tourism, a trillion-dollar industry, significantly impacts global GDP and constitutes about 7% of all exports, driving socio-economic development worldwide. However, it also contributes over 8% of global GHG emissions, with emissions rising annually (WTTC, 2023). Malaysia, a top tourist destination, sees tourism as a key economic driver, contributing RM 102 billion to GDP and creating 3.562 million jobs in 2019 (MOTAC, 2020). Emphasizing sustainable tourism, Malaysia's National Tourism Policy (NTP) aligns with the UN SDGs. Effective, cost-efficient data collection and analysis are crucial for monitoring tourism sustainability, bridging the gap between theory and practice (Hoffmann et al., 2022; Ardito et al., 2019).
+Tourism, a trillion-dollar industry, significantly impacts global GDP and constitutes about 7% of all exports, driving socio-economic development worldwide. However, it also contributes over 8% of global GHG emissions, with emissions rising annually (WTTC, 2023). Malaysia, a top tourist destination, sees tourism as a key economic driver, contributing RM 102 billion to GDP and creating 3.562 million jobs in 2019 (MOTAC, 2020). Emphasizing sustainable tourism, Malaysia's National Tourism Policy (NTP) aligns with the UN SDGs. Effective, cost-efficient data collection and analysis are crucial for monitoring tourism sustainability, bridging the gap between theory and practice (Hoffmann et al., 2022). 
 
 
 ## Problem Statement
-- Rising environmental concerns in tourism emphasize the need for
-sustainable practices in accommodations, requiring a solid understanding
-of metrics and effective data-driven decision-making.
-- The lack of precise data in Malaysia's accommodations sector is hindering
-the progress of sustainable tourism. It also hampers tourists' environmentally responsible choices and deprives
-providers and policymakers of crucial insights.
-- This project aims to develop a predictive model using machine learning for
-classifying and predicting the sustainability of tourist accommodations
-using Online Travel Agent (OTA) platform data.
+- Rising environmental concerns in tourism emphasize the need for sustainable practices in accommodations, requiring a solid understanding of metrics and effective data-driven decision-making.
+- The lack of precise data in Malaysia's accommodations sector is hindering the progress of sustainable tourism. It also hampers tourists' environmentally responsible choices and deprives providers and policymakers of crucial insights.
 
 
 ## Objective
@@ -50,11 +43,11 @@ using Online Travel Agent (OTA) platform data.
 
 
 ## Methodology
-- Data Collection: The Web-scraped data navigated to the overview section, extracting data from 25 accommodations per page and delving into each to capture 40 features. This process repeated through 40 pages, yielding 1000 accommodations per location. Covering 16 states and the federal territory of Malaysia.
-- Preprocessing: 
-- Model Development: 
-- Model Evaluation:
-- Deployment: 
+- **Data Collection:** The Web-scraped data navigated to the overview section, extracting data from 25 accommodations per page and delving into each to capture 40 features. This process repeated through 40 pages, yielding 1000 accommodations per location. Covering 16 states and the federal territory of Malaysia.
+- **Preprocessing:** 
+- **Model Development:** 
+- **Model Evaluation:**
+- **Deployment:**
 
 
 ## Result and Impact
@@ -64,10 +57,10 @@ using Online Travel Agent (OTA) platform data.
 
 
 ## Challenges and Solutions
-- Challenges in Web Scraping: Enhance the robustness of web scraping tools by leveraging AI technologies such as ChatGPT to handle dynamic content and site structures effectively.
-- Complexity in Data Preprocessing: Utilize AI, including tools like ChatGPT, to streamline and optimize the entire data preprocessing workflow, ensuring clean and well-structured datasets.
-- Handling Imbalanced Classes: Implement SMOTE and employ suitable evaluation metrics to address and evaluate class imbalances effectively.
-- Managing a Large Number of Features: Apply feature selection techniques to reduce dimensionality and select the most relevant features, improving model training efficiency and performance.
+- **Challenges in Web Scraping:** Enhance the robustness of web scraping tools by leveraging AI technologies such as ChatGPT to handle dynamic content and site structures effectively.
+- **Complexity in Data Preprocessing:** Utilize AI, including tools like ChatGPT, to streamline and optimize the entire data preprocessing workflow, ensuring clean and well-structured datasets.
+- **Handling Imbalanced Classes:** Implement SMOTE and employ suitable evaluation metrics to address and evaluate class imbalances effectively.
+- **Managing a Large Number of Features:** Apply feature selection techniques to reduce dimensionality and select the most relevant features, improving model training efficiency and performance.
 
 
 ## How to Use
@@ -95,5 +88,6 @@ python app.py
 
 ## Acknowledgement
 - [Hoffmann, F. J., Braesemann, F., & Teubner, T. (2022). Measuring sustainable tourism with online platform data. EPJ Data Science 2022 11:1, 11(1), 1–21. https://doi.org/10.1140/EPJDS/S13688-022-00354-6](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-022-00354-6)
+- [WTTC. (2023). The Environmental Impact of Global Tourism.](https://researchhub.wttc.org/product/the-environmental-impact-of-global-tourism-2023)
 - [Ministry Of Tourism, Arts & Culture (MOTAC)](https://www.motac.gov.my/)
 - [Tourism Malaysia](https://www.tourism.gov.my/)
