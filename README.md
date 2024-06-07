@@ -1,6 +1,7 @@
 # Predictive Modeling of Sustainable Tourism Practices Using Online Travel Agent (OTA) Platform: A Malaysian Case Study
 
-![Malaysia Sustainable Accommodation as of October 2023](../Malaysia Sustainable Accommodation as of October 2023.PNG)
+![Malaysia Sustainable Accommodation as of October 2023](https://github.com/izzad2413/sustainable_ota/assets/88135216/730a5322-90a8-455d-8eff-443df3b6348d)
+
 
 
 ## Table of Contents 
