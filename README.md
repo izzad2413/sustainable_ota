@@ -41,7 +41,8 @@ using Online Travel Agent (OTA) platform data.
 ## Tools and Technologies
 - ![Python](https://img.shields.io/badge/Python-%233776AB?style=for-the-badge&logo=python&logoColor=3776AB&labelColor=black)
 - ![Playwright](https://img.shields.io/badge/playwright-2EAD33?style=for-the-badge&logo=playwright&labelColor=black)
-- ![Static Badge](https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&labelColor=black)
+- ![Scikitlearn](https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&labelColor=black)
+- ![Streamlit](https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&labelColor=black)
 
 
 ## Data Source
@@ -49,8 +50,10 @@ using Online Travel Agent (OTA) platform data.
 
 
 ## Methodology
-- Data Collection and Preprocessing: Web-scraped data from OTA platforms and cleaned it to handle missing values and outliers.
-- Model Development: Built a logistic regression model to predict air travel fares based on the preprocessed data.
+- Data Collection: The Web-scraped data navigated to the overview section, extracting data from 25 accommodations per page and delving into each to capture 40 features. This process repeated through 40 pages, yielding 1000 accommodations per location. Covering 16 states and the federal territory of Malaysia.
+- Preprocessing: 
+- Model Development: 
+- Model Evaluation:
 - Deployment: 
 
 
@@ -61,9 +64,10 @@ using Online Travel Agent (OTA) platform data.
 
 
 ## Challenges and Solutions
-- Complexity 
-- Imbalance
-- High 
+- Challenges in Web Scraping: Enhance the robustness of web scraping tools by leveraging AI technologies such as ChatGPT to handle dynamic content and site structures effectively.
+- Complexity in Data Preprocessing: Utilize AI, including tools like ChatGPT, to streamline and optimize the entire data preprocessing workflow, ensuring clean and well-structured datasets.
+- Handling Imbalanced Classes: Implement SMOTE and employ suitable evaluation metrics to address and evaluate class imbalances effectively.
+- Managing a Large Number of Features: Apply feature selection techniques to reduce dimensionality and select the most relevant features, improving model training efficiency and performance.
 
 
 ## How to Use
