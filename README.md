@@ -6,7 +6,7 @@
 
 ## Table of Contents 
 
-- [Introduction](#introduction)
+- [Overview](#overview)
 - [Problem Statement](#problem-statement)
 - [Objective](#objective)
 - [Tools and Technologies](#tools-and-technologies)
@@ -18,22 +18,22 @@
 - [License](#license)
 
 
-## Introduction
-Tourism, a trillion-dollar industry, significantly impacts global GDP and comprises about 7% of all exports, driving socio-economic development (Lenzen et al., 2018). Yet, it contributes over 8% of global GHG emissions, with emissions rising annually (WTTC, 2023). Malaysia, a key tourist destination, leverages tourism as a vital economic driver, contributing RM 102 billion to GDP and creating 3.562 million jobs in 2019 (MOTAC, 2020). Emphasizing sustainable tourism, Malaysia's National Tourism Policy aligns with the UN SDGs, promoting ecotourism and responsible practices.
-
-Effective, cost-efficient data collection and analysis are crucial for monitoring tourism sustainability (Hoffmann et al., 2022; Ardito et al., 2019). This research explores using Online Travel Agent (OTA) platform data to evaluate the sustainability of tourist accommodations in Malaysia, applying machine learning techniques for data analysis. Unlike traditional rule-based systems that require detailed information on waste and water usage, this study's classifiers use correlated factors to assess sustainability, providing a broad and cost-effective complement to existing labels. By leveraging OTA data, the study aims to improve the accuracy and efficiency of sustainability assessments, addressing current data collection challenges and enhancing the reliability of sustainability indicators.
+## Overview
+Tourism, a trillion-dollar industry, significantly impacts global GDP and comprises about 7% of all exports, driving socio-economic development (Lenzen et al., 2018). However, it also contributes over 8% of global GHG emissions, with emissions rising annually (WTTC, 2023). Malaysia, a key tourist destination, leverages tourism as a vital economic driver, contributing RM 102 billion to GDP and creating 3.562 million jobs in 2019 (MOTAC, 2020). Emphasizing sustainable tourism, Malaysia's National Tourism Policy aligns with the UN SDGs, promoting ecotourism and responsible practices.
 
 
 ## Problem Statement
-- Rising environmental concerns in tourism emphasize the need for sustainable practices in accommodations, requiring a solid understanding of metrics and effective data-driven decision-making.
-- The lack of precise data in Malaysia's accommodations sector is hindering the progress of sustainable tourism. It also hampers tourists' environmentally responsible choices and deprives providers and policymakers of crucial insights.
-- This study aims to develop a supervised classification machine learning model using OTA platform data. Using OTA data enhances existing information for effective sustainability monitoring
+Rising environmental concerns in tourism emphasize the need for sustainable practices in accommodations, requiring a solid understanding of metrics and effective data-driven decision-making. The lack of precise data in Malaysia's accommodations sector is hindering the progress of sustainable tourism. This data gap hampers tourists' ability to make environmentally responsible choices and deprives providers and policymakers of crucial insights needed to promote sustainable practices.
 
 
 ## Objective
-- To develop and evaluate predictive models using machine learning techniques on data from an OTA platform to accurately classify tourist accommodations as sustainable, as indicated by the presence of a sustainability label. 
-- This objective encompasses identifying relevant features from the platform's data, selecting appropriate machine learning algorithms, and assessing the models' performance in terms of accuracy, precision, recall, and other relevant metrics.
-- The model will categorize accommodations into sustainability classes, aiding eco-friendly choices.
+This project aims to develop and evaluate predictive models using machine learning techniques on data from an Online Travel Agent (OTA) platform to accurately classify tourist accommodations as sustainable, as indicated by the presence of a sustainability label. The objective encompasses:
+
+- Identifying relevant features from the platform's data.
+- Selecting appropriate machine learning algorithms.
+- Assessing the models' performance in terms of accuracy, precision, recall, and other relevant metrics.
+
+By leveraging OTA data, this project seeks to address current data collection challenges, enhance the reliability of sustainability indicators, and support informed decision-making for tourists, accommodation providers, and policymakers.
 
 
 ## Tools and Technologies
@@ -44,11 +44,11 @@ Effective, cost-efficient data collection and analysis are crucial for monitorin
 
 
 ## Data Source
-- Data was meticulously gathered from the OTA platform Booking.com, resulting in a rich dataset comprising 40 raw features across 17,866 samples. Features are systematically categorized into seven distinct sections: About (A), Room & Price (RP), Review (R), Host (H), Surroundings (SR), Facilities (F), and Sustainability (S). 
+- Data was meticulously gathered from the OTA platform Booking.com.
 
 
 ## Methodology
-- **Data Collection:** The Web-scraped data navigated to the overview section, extracting data from 25 accommodations per page and delving into each to capture 40 features. This process repeated through 40 pages, yielding 1000 accommodations per location. Covering 16 states and the federal territory of Malaysia.
+- **Data Collection:** Using Python and Playwright as the main tools, the data was scraped from specified URLs for various locations. The algorithm extracted data from 25 accommodations per page, capturing 40 features each, over 40 pages, totaling 1000 accommodations per location. Covering 16 states and the federal territory of Malaysia, this yielded 17,866 raw samples. The data was stored in a CSV file for analysis and modeling.
 - **Preprocessing:** 
 - **Model Development:** 
 - **Model Evaluation:**
