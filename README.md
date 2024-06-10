@@ -37,7 +37,7 @@ This project aims to develop and evaluate predictive models using machine learni
 By leveraging OTA data, this project seeks to address current data collection challenges, enhance the reliability of sustainability indicators, and support informed decision-making for tourists, accommodation providers, and policymakers.
 
 
-## Tools and Technologies
+## Built With
 - ![Python](https://img.shields.io/badge/Python-%233776AB?style=for-the-badge&logo=python&logoColor=3776AB&labelColor=black)
 - ![Playwright](https://img.shields.io/badge/playwright-2EAD33?style=for-the-badge&logo=playwright&labelColor=black)
 - ![Scikitlearn](https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&labelColor=black)
