@@ -16,10 +16,11 @@
 - [Challenges and Solutions](#challenges-and-solutions)
 - [How to Use](#how-to-use)
 - [License](#license)
+- [Acknowledgement](#acknowledgement)
 
 
 ## Overview
-Tourism, a trillion-dollar industry, significantly impacts global GDP and comprises about 7% of all exports, driving socio-economic development (Lenzen et al., 2018). However, it also contributes over 8% of global GHG emissions, with emissions rising annually (WTTC, 2023). Malaysia, a key tourist destination, leverages tourism as a vital economic driver, contributing RM 102 billion to GDP and creating 3.562 million jobs in 2019 (MOTAC, 2020). Emphasizing sustainable tourism, Malaysia's National Tourism Policy aligns with the UN SDGs, promoting ecotourism and responsible practices.
+Tourism, a trillion-dollar industry, significantly impacts global Gross Domestic Product (GDP) and comprises about 7% of all exports, driving socio-economic development (Lenzen et al., 2018). However, it also contributes over 8% of global Green House Gases (GHG) emissions, with emissions rising annually (WTTC, 2023). Malaysia, a key tourist destination, leverages tourism as a vital economic driver, contributing RM 102 billion to GDP and creating 3.562 million jobs in 2019 (MOTAC, 2020). Emphasizing sustainable tourism, Malaysia's National Tourism Policy (NTP) aligns with the United Nation (UN) Sustainable Development Goals (SDGs), promoting ecotourism and responsible practices.
 
 
 ## Problem Statement
@@ -44,7 +45,7 @@ By leveraging OTA data, this project seeks to address current data collection ch
 
 
 ## Data Source
-- Data was meticulously gathered from the OTA platform Booking.com.
+- Data was meticulously gathered from the OTA platform, Booking.com.
 
 
 ## Methodology
@@ -69,19 +70,19 @@ By leveraging OTA data, this project seeks to address current data collection ch
 
 
 ## How to Use
-1. Clone the Repository:
+**1. Clone the Repository:**
 ```bash
 git clone https://github.com/yourusername/sustainable_ota.git
 ```
-2. Navigate to the Project Directory:
+**2. Navigate to the Project Directory:**
 ```bash
 cd sustainable_ota
 ```
-3. Install Dependencies:
+**3. Install Dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
-4. Run the Model:
+**4. Run the Model:**
 ```bash
 python app.py
 ```
