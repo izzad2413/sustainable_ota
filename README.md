@@ -1,4 +1,4 @@
-# Predictive Modeling of Sustainable Tourism Practices Using Online Travel Agent Platform: A Malaysian Case Study
+# Predicting Sustainable Tourism in Malaysia's Accommodation Sector: A Machine Learning Approach
 
 [![Static Badge](https://img.shields.io/badge/Back_to_Portfolio_Page-red?style=for-the-badge&logo=github&labelColor=black)](https://izzad2413.github.io/nazmirulizzadnassir.github.io/)
 
@@ -6,6 +6,7 @@
 
 ## Table of Contents 
 
+- [About Project](#about-project)
 - [Overview](#overview)
 - [Problem Statement](#problem-statement)
 - [Objective](#objective)
@@ -18,14 +19,17 @@
 - [License](#license)
 - [Acknowledgement](#acknowledgement)
 
+## About Project
+
+This project simplifies and extends my master's thesis by deploying a machine learning model to predict sustainable practices in Malaysia's accommodation sector, enhancing tourism sustainability through data-driven insights.
+
 ## Overview
 
-Tourism, a trillion-dollar industry, significantly impacts global Gross Domestic Product (GDP) and comprises about 7% of all exports, driving socio-economic development (Lenzen et al., 2018). However, it also contributes over 8% of global Green House Gases (GHG) emissions, with emissions rising annually (WTTC, 2023). Malaysia, a key tourist destination, leverages tourism as a vital economic driver, contributing RM 102 billion to GDP and creating 3.562 million jobs in 2019 (MOTAC, 2020). Emphasizing sustainable tourism, Malaysia's National Tourism Policy (NTP) aligns with the United Nation (UN) Sustainable Development Goals (SDGs), promoting ecotourism and responsible practices.
+Tourism, a trillion-dollar industry, significantly impacts global Gross Domestic Product (GDP) and comprises about 7% of all exports, driving socio-economic development. However, it also contributes over 8% of global Green House Gases (GHG) emissions, with emissions rising annually (WTTC, 2023). Malaysia, a key tourist destination, leverages tourism as a vital economic driver, contributing RM 102 billion to GDP and creating 3.562 million jobs in 2019 (MOTAC, 2020). Emphasizing sustainable tourism, Malaysia's National Tourism Policy (NTP) aligns with the United Nation (UN) Sustainable Development Goals (SDGs), promoting ecotourism and responsible practices.
 
 ## Problem Statement
 
 Rising environmental concerns in tourism emphasize the need for sustainable practices in accommodations, requiring a solid understanding of metrics and effective data-driven decision-making. The lack of precise data in Malaysia's accommodations sector is hindering the progress of sustainable tourism. This data gap hampers tourists' ability to make environmentally responsible choices and deprives providers and policymakers of crucial insights needed to promote sustainable practices.
-
 
 ## Objective
 
@@ -95,7 +99,6 @@ python app.py
 
 ## Acknowledgement
 
-- [Hoffmann, F. J., Braesemann, F., & Teubner, T. (2022). Measuring sustainable tourism with online platform data. EPJ Data Science 2022 11:1, 11(1), 1–21. https://doi.org/10.1140/EPJDS/S13688-022-00354-6](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-022-00354-6)
-- [WTTC. (2023). The Environmental Impact of Global Tourism.](https://researchhub.wttc.org/product/the-environmental-impact-of-global-tourism-2023)
+- [Hoffmann, F. J., Braesemann, F., & Teubner, T. (2022). Measuring sustainable tourism with online platform data. _EPJ Data Science 2022 11:1_, _11_(1), 1–21. https://doi.org/10.1140/EPJDS/S13688-022-00354-6](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-022-00354-6)
 - [Ministry Of Tourism, Arts & Culture (MOTAC)](https://www.motac.gov.my/)
 - [Tourism Malaysia](https://www.tourism.gov.my/)
