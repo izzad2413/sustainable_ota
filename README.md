@@ -25,7 +25,7 @@ This project simplifies and extends my master's thesis by deploying a machine le
 
 ## Overview
 
-Tourism, a trillion-dollar industry, significantly impacts global Gross Domestic Product (GDP) and comprises about 7% of all exports, driving socio-economic development. However, it also contributes over 8% of global Green House Gases (GHG) emissions, with emissions rising annually (WTTC, 2023). Malaysia, a key tourist destination, leverages tourism as a vital economic driver, contributing RM 102 billion to GDP and creating 3.562 million jobs in 2019 (MOTAC, 2020). Emphasizing sustainable tourism, Malaysia's National Tourism Policy (NTP) aligns with the United Nation (UN) Sustainable Development Goals (SDGs), promoting ecotourism and responsible practices.
+Tourism, a trillion-dollar industry, significantly impacts global Gross Domestic Product (GDP) and comprises about 7% of all exports, driving socio-economic development. However, it also contributes over 8% of global Green House Gases (GHG) emissions, with emissions rising annually. Malaysia, a key tourist destination, leverages tourism as a vital economic driver, contributing RM 102 billion to GDP and creating 3.562 million jobs in 2019 (MOTAC, 2020). Emphasizing sustainable tourism, Malaysia's National Tourism Policy (NTP) aligns with the United Nations (UN) Sustainable Development Goals (SDGs), promoting ecotourism and responsible practices.
 
 ## Problem Statement
 
@@ -37,7 +37,7 @@ This project aims to develop and evaluate predictive models using machine learni
 
 - Identifying relevant features from the platform's data.
 - Selecting appropriate machine learning algorithms.
-- Assessing the models' performance in terms of accuracy, precision, recall, and other relevant metrics.
+- Assessing the models' accuracy, precision, recall, F1 scores & AUC performance.
 
 By leveraging OTA data, this project seeks to address current data collection challenges, enhance the reliability of sustainability indicators, and support informed decision-making for tourists, accommodation providers, and policymakers.
 
@@ -54,8 +54,8 @@ By leveraging OTA data, this project seeks to address current data collection ch
 
 ## Methodology
 
-- **Data Collection:** Using Python and Playwright as the main tools, the data was scraped from specified URLs for various locations. The algorithm extracted data from 25 accommodations per page, capturing 40 features each, over 40 pages, totaling 1000 accommodations per location. Covering 16 states and the federal territory of Malaysia, this yielded 17,866 raw samples. The data was stored in a CSV file for analysis and modeling.
-- **Preprocessing:** 
+- **Data Collection:** Using Python and Playwright as the main tools, the data was scraped from specified URLs for various locations. The algorithm extracted data from 25 accommodations per page, capturing 40 features each, over 40 pages, totaling 1000 accommodations per location. Covering 16 states and Malaysia's federal territory yielded 17,866 raw samples. The data was stored in a CSV file for analysis and modeling.
+- **Preprocessing:** First, conduct [exploratory data analysis (EDA)](https://github.com/izzad2413/sustainable_ota/blob/main/notebooks/1.0_exploratory-data-analysis.ipynb) to inspect the dataset. After inspection, proceed with [data transformation and feature engineering](https://github.com/izzad2413/sustainable_ota/blob/main/notebooks/2.0_preprocessing-dataset.ipynb) to prepare for model development.
 - **Model Development:** 
 - **Model Evaluation:**
 - **Deployment:**
@@ -99,6 +99,6 @@ python app.py
 
 ## Acknowledgement
 
-- [Hoffmann, F. J., Braesemann, F., & Teubner, T. (2022). Measuring sustainable tourism with online platform data. _EPJ Data Science 2022 11:1_, _11_(1), 1–21. https://doi.org/10.1140/EPJDS/S13688-022-00354-6](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-022-00354-6)
-- [Ministry Of Tourism, Arts & Culture (MOTAC)](https://www.motac.gov.my/)
-- [Tourism Malaysia](https://www.tourism.gov.my/)
+- Hoffmann, F. J., Braesemann, F., & Teubner, T. (2022). Measuring sustainable tourism with online platform data. _EPJ Data Science 2022 11:1_, _11_(1), 1–21. [https://doi.org/10.1140/EPJDS/S13688-022-00354-6](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-022-00354-6)
+- Ministry Of Tourism, Arts & Culture (MOTAC)
+- Tourism Malaysia
