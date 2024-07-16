@@ -92,13 +92,9 @@ pip install -r requirements.txt
 python app.py
 ```
 
-## License
-
--
-
-
 ## Acknowledgement
-
-- Hoffmann, F. J., Braesemann, F., & Teubner, T. (2022). Measuring sustainable tourism with online platform data. _EPJ Data Science 2022 11:1_, _11_(1), 1–21. [https://doi.org/10.1140/EPJDS/S13688-022-00354-6](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-022-00354-6)
 - Ministry Of Tourism, Arts & Culture (MOTAC)
 - Tourism Malaysia
+- Hoffmann, F. J., Braesemann, F., & Teubner, T. (2022). Measuring sustainable tourism with online platform data. EPJ Data Science, 11, 41. [https://doi.org/10.1140/epjds/s13688-022-00354-6](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-022-00354-6)
+- Brownlee, J. (2020). How to use RFE for feature selection. In J. Brownlee (Ed.), Data preparation for machine learning (pp. 175–189). [https://machinelearningmastery.com/data-preparation-for-machine-learning/](https://machinelearningmastery.com/data-preparation-for-machine-learning/)
+
