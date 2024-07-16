@@ -37,7 +37,7 @@ This project aims to develop and evaluate predictive models using machine learni
 
 - Identifying relevant features from the platform's data.
 - Selecting appropriate machine learning algorithms.
-- Assessing the models' accuracy, precision, recall, F1 scores & AUC performance.
+- Assessing the models' performance based on unseen data.
 
 By leveraging OTA data, this project seeks to address current data collection challenges, enhance the reliability of sustainability indicators, and support informed decision-making for tourists, accommodation providers, and policymakers.
 
@@ -56,9 +56,9 @@ By leveraging OTA data, this project seeks to address current data collection ch
 
 - **Data Collection:** Using Python and Playwright as the main tools, the data was scraped from specified URLs for various locations. The algorithm extracted data from 25 accommodations per page, capturing 40 features each, over 40 pages, totaling 1000 accommodations per location. Covering 16 states and Malaysia's federal territory yielded 17,866 raw samples. The data was stored in a CSV file for analysis and modeling.
 - **Preprocessing:** First, conduct [exploratory data analysis (EDA)](https://github.com/izzad2413/sustainable_ota/blob/main/notebooks/1.0_exploratory-data-analysis.ipynb) to inspect the dataset. After inspection, proceed with [data transformation and feature engineering](https://github.com/izzad2413/sustainable_ota/blob/main/notebooks/2.0_preprocessing-dataset.ipynb) to prepare for model development. After processing, the dataset has 84 features, which may cause overfitting. Use [feature selection methods](https://github.com/izzad2413/sustainable_ota/blob/main/notebooks/3.0_feature_selection.ipynb) like filter methods and recursive feature elimination to identify the most relevant features. The selected features will be used for modeling.
-- **Model Development:** 
-- **Model Evaluation:**
-- **Deployment:**
+- **Model Development:** The dataset's complexity is challenging, so testing with non-linear classifiers such as Support Vector Machine (SVM), Decision Tree (DT), Random Forest (RF), K Nearest Neighbor (KNN), and Multi-layer Perceptron (MLP).
+- **Model Evaluation:** Due to class imbalance, accuracy alone may be misleading. Therefore, precision, recall, F1-scores, and precision-recall area under the curve (PRAUC) will be used as evaluation metrics.
+- **Deployment:** Use Streamlit framework for model deployment due to its simplicity and free availability.
 
 ## Result and Impact
 
@@ -92,13 +92,9 @@ pip install -r requirements.txt
 python app.py
 ```
 
-## License
-
--
-
-
 ## Acknowledgement
-
-- Hoffmann, F. J., Braesemann, F., & Teubner, T. (2022). Measuring sustainable tourism with online platform data. _EPJ Data Science 2022 11:1_, _11_(1), 1–21. [https://doi.org/10.1140/EPJDS/S13688-022-00354-6](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-022-00354-6)
 - Ministry Of Tourism, Arts & Culture (MOTAC)
 - Tourism Malaysia
+- Hoffmann, F. J., Braesemann, F., & Teubner, T. (2022). Measuring sustainable tourism with online platform data. EPJ Data Science, 11, 41. [https://doi.org/10.1140/epjds/s13688-022-00354-6](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-022-00354-6)
+- Brownlee, J. (2020). How to use RFE for feature selection. In J. Brownlee (Ed.), Data preparation for machine learning (pp. 175–189). [https://machinelearningmastery.com/data-preparation-for-machine-learning/](https://machinelearningmastery.com/data-preparation-for-machine-learning/)
+
