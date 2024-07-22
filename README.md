@@ -2,7 +2,7 @@
 
 [![Static Badge](https://img.shields.io/badge/Back_to_Portfolio_Page-red?style=for-the-badge&logo=github&labelColor=black)](https://izzad2413.github.io/nazmirulizzadnassir.github.io/)
 
-![Malaysia Sustainable Accommodation as of October 2023](https://github.com/izzad2413/sustainable_ota/assets/88135216/730a5322-90a8-455d-8eff-443df3b6348d)
+![malaysia_sustainable_ota-modified](https://github.com/user-attachments/assets/ef77fca7-703c-47fe-8536-8fed7deef53c)
 
 ## Table of Contents 
 
@@ -43,7 +43,7 @@ By leveraging OTA data, this project seeks to address current data collection ch
 
 ## Built With
 
-![Toolkit](https://go-skill-icons.vercel.app/api/icons?i=python,playwright,scikitlearn,streamlit)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=python,playwright,scikitlearn,streamlit)
 
 ## Data Source
 
