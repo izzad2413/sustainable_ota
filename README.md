@@ -43,7 +43,7 @@ By leveraging OTA data, this project seeks to address current data collection ch
 
 ## Built With
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=python,playwright,scikitlearn,streamlit)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=python,playwright,scikitlearn,streamlit&titles=true)
 
 ## Data Source
 
