@@ -2,12 +2,12 @@
 
 [![Static Badge](https://img.shields.io/badge/Back_to_Portfolio_Page-red?style=for-the-badge&logo=github&labelColor=black)](https://izzad2413.github.io/nazmirulizzadnassir.github.io/)
 
-![Malaysia Sustainable Accommodation as of October 2023](https://github.com/izzad2413/sustainable_ota/assets/88135216/730a5322-90a8-455d-8eff-443df3b6348d)
+![malaysia_sustainable_ota-modified_v2](https://github.com/user-attachments/assets/e5c83fec-b504-4f09-8627-f9fb4c100cab)
 
 ## Table of Contents 
 
 - [About Project](#about-project)
-- [Overview](#overview)
+- [Background Overview](#background-overview)
 - [Problem Statement](#problem-statement)
 - [Objective](#objective)
 - [Built With](#built-with)
@@ -16,20 +16,19 @@
 - [Result and Impact](#result-and-impact)
 - [Challenges and Solutions](#challenges-and-solutions)
 - [How to Use](#how-to-use)
-- [License](#license)
 - [Acknowledgement](#acknowledgement)
 
 ## About Project
 
 This project simplifies and extends my master's thesis by deploying a machine learning model to predict sustainable practices in Malaysia's accommodation sector, enhancing tourism sustainability through data-driven insights.
 
-## Overview
+## Background Overview
 
-Tourism, a trillion-dollar industry, significantly impacts global Gross Domestic Product (GDP) and comprises about 7% of all exports, driving socio-economic development. However, it also contributes over 8% of global Green House Gases (GHG) emissions, with emissions rising annually. Malaysia, a key tourist destination, leverages tourism as a vital economic driver, contributing RM 102 billion to GDP and creating 3.562 million jobs in 2019 (MOTAC, 2020). Emphasizing sustainable tourism, Malaysia's National Tourism Policy (NTP) aligns with the United Nations (UN) Sustainable Development Goals (SDGs), promoting ecotourism and responsible practices.
+Tourism is a trillion-dollar industry contributing significantly to the global GDP and accounting for about 7% of all exports, with over 1.2 billion people traveling abroad annually. Despite its economic benefits, tourism significantly impacts global carbon emissions, contributing over 8% of all GHG emissions. Sustainable tourism is crucial to balancing the economic, social, and environmental impacts of tourism. Malaysia, a major tourist destination, has integrated sustainable practices into its tourism strategies, emphasizing data-driven approaches for assessing sustainability. This project explores the use of Online Travel Agent (OTA) platform data and machine learning techniques to evaluate the sustainability of tourist accommodations in Malaysia, addressing the limitations of traditional methods and enhancing the cost-effective implementation of sustainability assessments.
 
 ## Problem Statement
 
-Rising environmental concerns in tourism emphasize the need for sustainable practices in accommodations, requiring a solid understanding of metrics and effective data-driven decision-making. The lack of precise data in Malaysia's accommodations sector is hindering the progress of sustainable tourism. This data gap hampers tourists' ability to make environmentally responsible choices and deprives providers and policymakers of crucial insights needed to promote sustainable practices.
+Rising environmental concerns in tourism emphasize the need for sustainable accommodations practices, which require a solid understanding of metrics and effective data-driven decision-making. The lack of precise data in Malaysia's accommodations sector is hindering the progress of sustainable tourism. This data gap hampers tourists' ability to make environmentally responsible choices and deprives providers and policymakers of crucial insights needed to promote sustainable practices.
 
 ## Objective
 
@@ -43,14 +42,11 @@ By leveraging OTA data, this project seeks to address current data collection ch
 
 ## Built With
 
-- ![Python](https://img.shields.io/badge/Python-%233776AB?style=for-the-badge&logo=python&logoColor=3776AB&labelColor=black)
-- ![Playwright](https://img.shields.io/badge/playwright-2EAD33?style=for-the-badge&logo=playwright&labelColor=black)
-- ![Scikitlearn](https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&labelColor=black)
-- ![Streamlit](https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&labelColor=black)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=vscode,python,playwright,scikitlearn,streamlit,tableau&titles=true)
 
 ## Data Source
 
-- Data was meticulously gathered from the OTA platform, Booking.com.
+- Data was meticulously gathered from the OTA platform, Booking.com from September til October 2023.
 
 ## Methodology
 
@@ -93,8 +89,9 @@ python app.py
 ```
 
 ## Acknowledgement
-- Ministry Of Tourism, Arts & Culture (MOTAC)
+- Ministry of Tourism, Arts & Culture (MOTAC)
 - Tourism Malaysia
 - Hoffmann, F. J., Braesemann, F., & Teubner, T. (2022). Measuring sustainable tourism with online platform data. EPJ Data Science, 11, 41. [https://doi.org/10.1140/epjds/s13688-022-00354-6](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-022-00354-6)
 - Brownlee, J. (2020). How to use RFE for feature selection. In J. Brownlee (Ed.), Data preparation for machine learning (pp. 175–189). [https://machinelearningmastery.com/data-preparation-for-machine-learning/](https://machinelearningmastery.com/data-preparation-for-machine-learning/)
+- Brownlee, J. (2020). Imbalanced Classification with Python. [https://machinelearningmastery.com/imbalanced-classification-with-python/](https://machinelearningmastery.com/imbalanced-classification-with-python/)
 
