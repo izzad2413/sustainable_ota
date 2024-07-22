@@ -7,7 +7,7 @@
 ## Table of Contents 
 
 - [About Project](#about-project)
-- [Overview](#overview)
+- [Background Overview](#background-overview)
 - [Problem Statement](#problem-statement)
 - [Objective](#objective)
 - [Built With](#built-with)
@@ -16,7 +16,6 @@
 - [Result and Impact](#result-and-impact)
 - [Challenges and Solutions](#challenges-and-solutions)
 - [How to Use](#how-to-use)
-- [License](#license)
 - [Acknowledgement](#acknowledgement)
 
 ## About Project
@@ -94,4 +93,5 @@ python app.py
 - Tourism Malaysia
 - Hoffmann, F. J., Braesemann, F., & Teubner, T. (2022). Measuring sustainable tourism with online platform data. EPJ Data Science, 11, 41. [https://doi.org/10.1140/epjds/s13688-022-00354-6](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-022-00354-6)
 - Brownlee, J. (2020). How to use RFE for feature selection. In J. Brownlee (Ed.), Data preparation for machine learning (pp. 175–189). [https://machinelearningmastery.com/data-preparation-for-machine-learning/](https://machinelearningmastery.com/data-preparation-for-machine-learning/)
+- Brownlee, J. (2020). Imbalanced Classification with Python. [https://machinelearningmastery.com/imbalanced-classification-with-python/](https://machinelearningmastery.com/imbalanced-classification-with-python/)
 
