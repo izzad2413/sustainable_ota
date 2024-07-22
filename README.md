@@ -2,7 +2,7 @@
 
 [![Static Badge](https://img.shields.io/badge/Back_to_Portfolio_Page-red?style=for-the-badge&logo=github&labelColor=black)](https://izzad2413.github.io/nazmirulizzadnassir.github.io/)
 
-![malaysia_sustainable_ota-modified](https://github.com/user-attachments/assets/ef77fca7-703c-47fe-8536-8fed7deef53c)
+![malaysia_sustainable_ota-modified_v2](https://github.com/user-attachments/assets/e5c83fec-b504-4f09-8627-f9fb4c100cab)
 
 ## Table of Contents 
 
@@ -89,7 +89,7 @@ python app.py
 ```
 
 ## Acknowledgement
-- Ministry Of Tourism, Arts & Culture (MOTAC)
+- Ministry of Tourism, Arts & Culture (MOTAC)
 - Tourism Malaysia
 - Hoffmann, F. J., Braesemann, F., & Teubner, T. (2022). Measuring sustainable tourism with online platform data. EPJ Data Science, 11, 41. [https://doi.org/10.1140/epjds/s13688-022-00354-6](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-022-00354-6)
 - Brownlee, J. (2020). How to use RFE for feature selection. In J. Brownlee (Ed.), Data preparation for machine learning (pp. 175–189). [https://machinelearningmastery.com/data-preparation-for-machine-learning/](https://machinelearningmastery.com/data-preparation-for-machine-learning/)
