@@ -23,13 +23,13 @@
 
 This project simplifies and extends my master's thesis by deploying a machine learning model to predict sustainable practices in Malaysia's accommodation sector, enhancing tourism sustainability through data-driven insights.
 
-## Overview
+## Background Overview
 
-Tourism, a trillion-dollar industry, significantly impacts global Gross Domestic Product (GDP) and comprises about 7% of all exports, driving socio-economic development. However, it also contributes over 8% of global Green House Gases (GHG) emissions, with emissions rising annually. Malaysia, a key tourist destination, leverages tourism as a vital economic driver, contributing RM 102 billion to GDP and creating 3.562 million jobs in 2019 (MOTAC, 2020). Emphasizing sustainable tourism, Malaysia's National Tourism Policy (NTP) aligns with the United Nations (UN) Sustainable Development Goals (SDGs), promoting ecotourism and responsible practices.
+Tourism is a trillion-dollar industry contributing significantly to the global GDP and accounting for about 7% of all exports, with over 1.2 billion people traveling abroad annually. Despite its economic benefits, tourism significantly impacts global carbon emissions, contributing over 8% of all GHG emissions. Sustainable tourism is crucial to balancing the economic, social, and environmental impacts of tourism. Malaysia, a major tourist destination, has integrated sustainable practices into its tourism strategies, emphasizing data-driven approaches for assessing sustainability. This project explores the use of Online Travel Agent (OTA) platform data and machine learning techniques to evaluate the sustainability of tourist accommodations in Malaysia, addressing the limitations of traditional methods and enhancing the cost-effective implementation of sustainability assessments.
 
 ## Problem Statement
 
-Rising environmental concerns in tourism emphasize the need for sustainable practices in accommodations, requiring a solid understanding of metrics and effective data-driven decision-making. The lack of precise data in Malaysia's accommodations sector is hindering the progress of sustainable tourism. This data gap hampers tourists' ability to make environmentally responsible choices and deprives providers and policymakers of crucial insights needed to promote sustainable practices.
+Rising environmental concerns in tourism emphasize the need for sustainable accommodations practices, which require a solid understanding of metrics and effective data-driven decision-making. The lack of precise data in Malaysia's accommodations sector is hindering the progress of sustainable tourism. This data gap hampers tourists' ability to make environmentally responsible choices and deprives providers and policymakers of crucial insights needed to promote sustainable practices.
 
 ## Objective
 
@@ -43,14 +43,11 @@ By leveraging OTA data, this project seeks to address current data collection ch
 
 ## Built With
 
-- ![Python](https://img.shields.io/badge/Python-%233776AB?style=for-the-badge&logo=python&logoColor=3776AB&labelColor=black)
-- ![Playwright](https://img.shields.io/badge/playwright-2EAD33?style=for-the-badge&logo=playwright&labelColor=black)
-- ![Scikitlearn](https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&labelColor=black)
-- ![Streamlit](https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&labelColor=black)
+![Toolkit](https://go-skill-icons.vercel.app/api/icons?i=python,playwright,scikitlearn,streamlit)
 
 ## Data Source
 
-- Data was meticulously gathered from the OTA platform, Booking.com.
+- Data was meticulously gathered from the OTA platform, Booking.com from September til October 2023.
 
 ## Methodology
 
