@@ -24,7 +24,7 @@ This project simplifies and extends my master's thesis by deploying a machine le
 
 ## Background Overview
 
-Tourism is a trillion-dollar industry contributing significantly to the global GDP and accounting for about 7% of all exports, with over 1.2 billion people traveling abroad annually. Despite its economic benefits, tourism significantly impacts global carbon emissions, contributing over 8% of all GHG emissions. Sustainable tourism is crucial to balancing the economic, social, and environmental impacts of tourism. Malaysia, a major tourist destination, has integrated sustainable practices into its tourism strategies, emphasizing data-driven approaches for assessing sustainability. This project explores the use of Online Travel Agent (OTA) platform data and machine learning techniques to evaluate the sustainability of tourist accommodations in Malaysia, addressing the limitations of traditional methods and enhancing the cost-effective implementation of sustainability assessments.
+Tourism is a trillion-dollar industry contributing significantly to the global GDP and accounting for about 7% of all exports, with over 1.2 billion people traveling abroad annually. Despite its economic benefits, tourism significantly impacts global carbon emissions, contributing over 8% of all GHG emissions. Sustainable tourism is crucial to balancing the economic, social, and environmental impacts of tourism. Malaysia, a major tourist destination, has integrated sustainable practices into its tourism strategies, emphasizing data-driven approaches for assessing sustainability. 
 
 ## Problem Statement
 
@@ -85,7 +85,7 @@ pip install -r requirements.txt
 ```
 **4. Run the Model:**
 ```bash
-python app.py
+streamlit run app.py
 ```
 
 ## Acknowledgement
