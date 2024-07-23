@@ -58,7 +58,7 @@ By leveraging OTA data, this project seeks to address current data collection ch
 
 ## Result and Impact
 
-- A quick summary of the current landscape of sustainable tourism in Malaysia's accommodation sector is provided using Tableau.
+- A quick [visual summary of the current landscape of sustainable tourism in Malaysia's accommodation sector](https://public.tableau.com/app/profile/nazmirul.izzad.nassir/viz/MalaysiaTravelSustainableAccommodationTourism/Dashboard2) is provided using Tableau.
 - The RFE method indicates that the significant number of features ranges between 11 and 22, which can be extracted from OTA data.
 - Among various models tested, the MLP model shows the best performance. Although its performance is acceptable, there is still room for improvement.
 - The model has been deployed using Streamlit, creating a web application that is easy for the public to use and try out.
