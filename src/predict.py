@@ -41,7 +41,7 @@ def show_predict_page():
     living_area = st.slider('Living Area',1,5,1)
     miscellaneous = st.slider('Miscellaneous',1,19,1)
     outdoors = st.slider('Outdoors',0,15,0)
-    reception_services = st.slider('Rreception Service',1,10,1)
+    reception_services = st.slider('Reception Service',1,10,1)
     safety_and_security = st.slider('Safety and Security',1,10,1)
     services_and_extras = st.slider('Other Extra Services',0,3,0)
     
