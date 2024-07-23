@@ -5,6 +5,7 @@ blinker==1.8.2
 cachetools==5.4.0
 certifi==2024.7.4
 chardet==4.0.0
+charset-normalizer==3.3.2
 click==8.1.7
 colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1666700638685/work
 comm @ file:///home/conda/feedstock_root/build_artifacts/comm_1710320294760/work
@@ -58,7 +59,7 @@ pytz==2024.1
 pywin32==306
 pyzmq @ file:///D:/bld/pyzmq_1715024524369/work
 referencing==0.35.1
-requests==2.25.1
+requests==2.32.3
 rich==13.7.1
 rpds-py==0.19.0
 scikit-learn==1.5.1
@@ -67,7 +68,7 @@ seaborn==0.13.2
 six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
 smmap==5.0.1
 stack-data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1669632077133/work
-streamlit==1.27.0
+streamlit==1.36.0
 tenacity==8.5.0
 threadpoolctl==3.5.0
 toml==0.10.2
