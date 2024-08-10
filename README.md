@@ -74,6 +74,8 @@ By leveraging OTA data, this project seeks to address current data collection ch
 
 To test the application, click this link: [Malaysia Sustainable Tourism Accommodation Predictor](https://sustainableota-895nmbahjpzb8cimfmgkkt.streamlit.app/)
 
+[webapp-demo](https://github.com/user-attachments/assets/3425572b-7129-49e9-b268-0ba3cccbf9ce)
+
 ## Acknowledgement
 - Ministry of Tourism, Arts & Culture (MOTAC)
 - Tourism Malaysia
