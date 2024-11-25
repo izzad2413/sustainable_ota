@@ -58,10 +58,10 @@ By leveraging OTA data, this project seeks to address current data collection ch
 
 ## Result and Impact
 
-- A quick [visual summary](https://public.tableau.com/views/MalaysiaTravelSustainableAccommodationTourism/Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) of the current landscape of sustainable tourism in Malaysia's accommodation sector is provided using Tableau. As of the date data collected, there is around 79.12% of non-travel sustainable while only 20.88% travel sustainable accommodation in Malaysia.
-- The RFE method indicates that the significant number of features ranges between 11 and 22, which can be extracted from OTA data.
-- Among various models tested, the MLP model shows the best performance. Although its performance is acceptable, there is still room for improvement.
-- The model has been deployed using Streamlit, creating a web application that is easy for the public to use and try out.
+- **Travel Sustainable Accommodation:** A quick [visual summary](https://public.tableau.com/views/MalaysiaTravelSustainableAccommodationTourism/Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) of the current landscape of sustainable tourism in Malaysia's accommodation sector is provided using Tableau. As of the date data collected, there is around 79.12% of non-travel sustainable while only 20.88% travel sustainable accommodation in Malaysia.
+- **Significant Features:** The RFE method indicates that the significant number of features ranges between 11 and 22, which can be extracted from OTA data. These selected features are from these sections: About, Room & Price, Review, Surroundings & Facilities.
+- **Best Experimented Model:** Among various models tested, the MLP model shows the best performance. Although its performance is acceptable, there is still room for improvement.
+- **Model Deployment:** The model has been deployed using Streamlit, creating a web application that is easy for the public to use and try out.
 
 ## Challenges and Solutions
 
