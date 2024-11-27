@@ -65,10 +65,11 @@ By leveraging OTA data, this project seeks to address current data collection ch
 
 ## Challenges and Solutions
 
-- **Challenges in Web Scraping:** Enhance the robustness of web scraping tools by leveraging AI technologies such as ChatGPT to handle dynamic content and site structures effectively.
-- **Complexity in Data Preprocessing:** Utilize AI, including tools like ChatGPT, to streamline and optimize the entire data preprocessing workflow, ensuring clean and well-structured datasets.
-- **Handling Imbalanced Classes:** Implement SMOTE and employ suitable evaluation metrics to address and evaluate class imbalances effectively.
+- **Challenges in Dynamic Web Scraping:** Breaks into smaller manageable tasks & enhances the robustness of web scraping tools by leveraging AI technologies such as ChatGPT to handle dynamic content and site structures effectively.
+- **Complexity in Data Preprocessing & Unknown Features:** Understand the domain explanation for each feature through Booking.com documentation. Utilize AI, including tools like ChatGPT, to streamline and optimize the entire data preprocessing workflow, ensuring clean and well-structured datasets.
+- **Handling Outliers & Imbalanced Classes:** Retain samples by using the winsorization method. Implement SMOTE and employ suitable evaluation metrics to address and evaluate class imbalances effectively.
 - **Managing a Large Number of Features:** Apply feature selection techniques to reduce dimensionality and select the most relevant features, improving model training efficiency and performance.
+- **Limited Dataset:** To ensure model robustness, Repeated Stratified KFold (RSKF) cross-validation repeated twice was used throughout the experiment. 
 
 ## How to Use
 
